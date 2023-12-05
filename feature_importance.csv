@@ -1,276 +1,276 @@
 Feature,Importance
-hour_2,0.08042287278041177
-hour_1,0.08004089380141313
-hour_0,0.07577326568108568
-hour_3,0.07516782315860418
-hour_23,0.0633240625878275
-hour_4,0.05235410202854606
-hour_22,0.05007236681553529
-counter_age,0.041117525268765914
-counter_name_28 boulevard Diderot E-O,0.03534909709323768
-hour_21,0.029041367362178994
-hour_5,0.020979221375968648
-hour_20,0.019948846070728873
-latitude,0.016654457596965454
-counter_technical_id_Y2H19070377,0.01644311370769445
-site_name_Face au 40 quai D'Issy,0.01536606105758717
-longitude,0.015089668987659227
-counter_technical_id_YTH19111510,0.012612551495441673
-day_of_week_6,0.011920053489858686
-site_name_Totem 73 boulevard de Sébastopol,0.011415448686032687
-t,0.01059939476242608
-temp_lag_1,0.008842106507928445
-t_lag_3,0.008519149947669577
-t_lag_1,0.008277869465709561
-tend24,0.007506775986525167
-t_lag_2,0.007101766771883432
-hour_19,0.00699313577886414
-day_of_week_5,0.0068255560441613395
-distance_to_nearest_velib,0.00669834621187032
-td,0.006525543448034652
-counter_technical_id_YTH19037970,0.006506031275126099
-counter_technical_id_Y2H20073268,0.006302901255223528
-temp_humidity_interaction,0.0062156152396183875
-hour_6,0.006028990989661321
-wind_x,0.0056213781629182325
-site_name_20 Avenue de Clichy,0.005273719891220267
-site_name_Totem 64 Rue de Rivoli,0.005078894134765477
-vv,0.0050540314123762465
-tend,0.004887211322306965
-wind_y,0.004756411704355603
-hour_7,0.004480550783054841
-month_2,0.004106740821397568
-u_lag_3,0.003416845195835245
-hbas,0.0034077572502386926
-u,0.003189066728997057
-rr24,0.003017617041185487
-rafper,0.002977276332247592
-n,0.002574823353754579
-cloud_wind_interaction,0.0024296116662295268
-month_9,0.002357461235875109
-hour_16,0.0021691016032062593
-nbas,0.0021328342607237973
-month_5,0.0018775531152019787
-site_name_Face 104 rue d'Aubervilliers,0.0018729521517648362
-u_lag_2,0.0018670953872464188
-rr12,0.0018528146228002098
-hour_17,0.0018159765673681416
-month_4,0.001760446358705591
-counter_technical_id_Y2H18086321,0.0016594398908146956
-counter_technical_id_Y2H19070373,0.0016493886371947335
-month_10,0.001601797961151312
-counter_name_20 Avenue de Clichy SE-NO,0.001576011262113717
-counter_name_67 boulevard Voltaire SE-NO,0.0015653575393200817
-counter_technical_id_Y2H18034809,0.0015585818310516319
-site_name_152 boulevard du Montparnasse,0.0015581843976130167
-site_name_67 boulevard Voltaire SE-NO,0.001520554222806249
-u_lag_1,0.0015185970594060133
-counter_name_Face au 4 avenue de la porte de Bagnolet O-E,0.0014767259904523897
-etat_sol_0.0,0.0013811997395135305
-rr6,0.0013259096319154836
-month_6,0.0012897851264683827
-counter_name_90 Rue De Sèvres SO-NE,0.0012156981496891008
-counter_name_Totem Cours la Reine E-O,0.0011758932517378794
-counter_name_27 quai de la Tournelle SE-NO,0.001134299645253827
-pres,0.00111861770029361
-pres_lag_3,0.0011179667262726399
-pres_lag_2,0.00111782416921899
-raf10_lag_3,0.001097090641596265
-ff_lag_3,0.0010964744999300779
-pmer,0.001092836937068106
-hour_18,0.0010615412261177869
-counter_name_20 Avenue de Clichy NO-SE,0.0010599019938735766
-pmer_lag_1,0.0010550545560030933
-pmer_lag_3,0.0010517568807108398
-ff_lag_2,0.0010410652032251334
-ff_lag_1,0.0010358082546909446
-rr3,0.0010356675397236662
-raf10_lag_2,0.0010330535339795487
-pres_lag_1,0.001027654361653942
-raf10,0.0010252684666141505
-pmer_lag_2,0.00100965838728604
-counter_technical_id_Y2H19070357,0.001006705324670233
-site_name_Pont des Invalides S-N,0.00099425537994762
-counter_name_90 Rue De Sèvres NE-SO,0.0009874523334600105
-raf10_lag_1,0.000986229120521158
-counter_name_Pont des Invalides S-N,0.0009839838926426106
-counter_name_Face au 8 avenue de la porte de Charenton NO-SE,0.0009455850386769468
-counter_name_Voie Georges Pompidou NE-SO,0.00094151034937566
-day_of_week_0,0.0009375612859489514
-counter_name_Totem 64 Rue de Rivoli O-E,0.0009355684205551742
-site_name_27 quai de la Tournelle,0.0008736031743681811
-month_11,0.0008537427453071563
-counter_technical_id_YTH19111508,0.0008109828611331528
-hour_8,0.000788606004667914
-day_of_week_4,0.0007872313332517629
-counter_name_Face au 70 quai de Bercy S-N,0.0007791122174047148
-site_name_Totem 85 quai d'Austerlitz,0.0007777939011873105
-counter_technical_id_Y2H19070383,0.0007716214665910125
-interaction_precipitation_temperature,0.0007365832838927123
-counter_name_Face au 70 quai de Bercy N-S,0.0007306958814250999
-counter_name_18 quai de l'Hôtel de Ville NO-SE,0.0006990868127887431
-month_7,0.0006901881861631094
-hour_15,0.0006633291052057056
-month_12,0.0006602950174707843
-site_name_Pont des Invalides N-S,0.000622862535181665
-counter_technical_id_Y2H19070365,0.0006000934813050751
-ww_3,0.0005896921770840555
-year_2020,0.000583568492343645
-cod_tend_3,0.0005774204806328901
-cod_tend_6,0.0005739281758299673
-counter_name_Pont des Invalides N-S,0.0005707464656889399
-counter_name_38 rue Turbigo SO-NE,0.0005633639290896033
-year_2021,0.0005580678825556321
-counter_name_Face au 4 avenue de la porte de Bagnolet E-O,0.0005524018370326927
-counter_name_36 quai de Grenelle NE-SO,0.0005462401844706706
-ww_1,0.0005435218392656333
-counter_name_152 boulevard du Montparnasse O-E,0.0005398340534059251
-hour_9,0.0005215965025295853
-counter_name_6 rue Julia Bartet NE-SO,0.0005070113115508594
-counter_name_Totem 85 quai d'Austerlitz SE-NO,0.0004915653061669735
-counter_name_Quai d'Orsay E-O,0.0004881204095684896
-day_of_week_1,0.00047791170995467813
-counter_name_Voie Georges Pompidou SO-NE,0.0004544734941213864
-month_1,0.0004420444147239718
-ww_2,0.0004419537848840047
-counter_name_152 boulevard du Montparnasse E-O,0.00044024029264043315
-cod_tend_8,0.0004237780982124475
-day_of_week_3,0.00042168545464805855
-day_of_week_2,0.0004141508334729294
-site_name_Face au 25 quai de l'Oise,0.00041401823836587944
-counter_name_Totem Cours la Reine O-E,0.0004110524344499258
-site_name_18 quai de l'Hôtel de Ville,0.0003862497539396058
-counter_name_Totem 64 Rue de Rivoli E-O,0.00038542273879938165
-counter_name_6 rue Julia Bartet SO-NE,0.00038391564065946084
-site_name_Face au 48 quai de la marne,0.00037626828372649886
-cod_tend_5,0.0003698428143523821
-cod_tend_1,0.00036724838970751266
-etat_sol_1.0,0.00036446819483477137
-counter_name_254 rue de Vaugirard NE-SO,0.0003604566879175477
-counter_name_36 quai de Grenelle SO-NE,0.0003583718914704639
-counter_technical_id_Y2H19027732,0.0003469859193313101
-ht_neige,0.00034237229289214627
-counter_technical_id_Y2H18086318,0.00034182479610848714
-hour_10,0.0003403026812412184
-counter_name_Face au 48 quai de la marne SO-NE,0.00033123940963262767
-counter_name_Face 104 rue d'Aubervilliers S-N,0.000325953011898965
-site_name_Quai d'Orsay,0.00032208972599771915
-counter_technical_id_Y2H18086324,0.00031790500675067874
-counter_name_Pont Charles De Gaulle SO-NE,0.0003173677110491335
-cod_tend_0,0.0003145857326422372
-site_name_Pont Charles De Gaulle,0.00030926467283012724
-etat_sol_2.0,0.0003086262166932882
-counter_technical_id_Y2H19070382,0.0003034291639495629
-counter_technical_id_Y2H19070375,0.00029725107372814653
-month_3,0.00029681700579773214
-counter_technical_id_Y2H19070380,0.00029502975652069183
-ssfrai,0.0002906484716543108
-site_name_38 rue Turbigo,0.00028672913114400115
-counter_name_39 quai François Mauriac SE-NO,0.00028515843850232867
-cod_tend_7,0.000281525396371477
-counter_name_Face 104 rue d'Aubervilliers N-S,0.0002809902269440034
-month_8,0.0002780403477444375
-counter_name_Totem 73 boulevard de Sébastopol S-N,0.0002754762263932543
-counter_name_Pont de Bercy SO-NE,0.0002747917240748251
-counter_name_Quai d'Orsay O-E,0.00027086502667574247
-counter_name_27 quai de la Tournelle NO-SE,0.0002669895998500268
-counter_name_38 rue Turbigo NE-SO,0.00025861698518131416
-cod_tend_2,0.0002544320093293423
-counter_name_Face au 8 avenue de la porte de Charenton SE-NO,0.0002498380701594145
-counter_name_Totem 73 boulevard de Sébastopol N-S,0.000248009579016767
-hour_11,0.00024375304461994867
-counter_name_39 quai François Mauriac NO-SE,0.00024372862253934234
-counter_technical_id_Y2H21025335,0.0002393415275710164
-hour_12,0.00023606566042215092
-rr1_lag_3,0.0002306575458043942
-hour_14,0.00022608259098021077
-ww_60,0.00022339675720919636
-ww_0,0.00022193801987562326
-hour_13,0.0002133449712236128
-counter_technical_id_Y2H20052705,0.00021218973028648097
-counter_name_254 rue de Vaugirard SO-NE,0.00021139524047805237
-counter_name_Pont de Bercy NE-SO,0.00021119892646879912
-site_name_Voie Georges Pompidou,0.00020844818207287316
-site_name_90 Rue De Sèvres,0.00020707662812045113
-rr1_lag_2,0.0001876928522333715
-counter_name_Face au 48 quai de la marne NE-SO,0.00017353551940208173
-counter_name_28 boulevard Diderot O-E,0.00017327969024526557
-rr1_lag_1,0.00017300144311689706
-counter_name_Face au 25 quai de l'Oise SO-NE,0.0001702153596438322
-counter_name_Totem 85 quai d'Austerlitz NO-SE,0.00016721259823730287
-site_name_Pont de Bercy,0.0001656481911660202
-counter_name_Face au 25 quai de l'Oise NE-SO,0.00016527478519920587
-counter_name_Face au 40 quai D'Issy SO-NE,0.00016460130431665787
-counter_technical_id_Y2H19070378,0.00016312003194759544
-precipitation_lag_1,0.00016217736638108647
-counter_technical_id_Y2H17021629,0.0001582185360101614
-site_name_Totem Cours la Reine,0.00015776002360759492
-precipitation_lag_2,0.0001574839079679252
-counter_name_18 quai de l'Hôtel de Ville SE-NO,0.00015722088135341724
-rr1,0.0001540669960273557
-counter_name_Pont Charles De Gaulle NE-SO,0.00015095883984060735
-counter_name_Pont de la Concorde S-N,0.00015002445898443153
-counter_technical_id_YTH19111509,0.00014830921012314876
-site_name_Face au 4 avenue de la porte de Bagnolet,0.00013639949785625833
-counter_name_Face au 40 quai D'Issy NE-SO,0.0001362037851867493
-site_name_39 quai François Mauriac,0.00013484968799996357
-ww_21,0.00013403353382983947
-site_name_36 quai de Grenelle,0.00012803976711118085
-site_name_Pont de la Concorde S-N,0.0001260187573075385
-counter_technical_id_Y2H19070356,0.00012597943575686548
-counter_technical_id_Y2H19070376,0.0001237581223627907
-etat_sol_0.6807339449541284,0.00012204139709093933
-counter_technical_id_Y2H19070372,0.00011714283158454322
-ww_61,0.00011695796292501616
-counter_technical_id_Y2H20022165,0.00011118235607387986
-site_name_Face au 8 avenue de la porte de Charenton,0.00010628060798197122
-counter_technical_id_Y2H19070370,0.00010490747880525795
-site_name_Face au 70 quai de Bercy,0.00010174605799307768
-counter_technical_id_Y2H15027244,9.423839253085115e-05
-site_name_28 boulevard Diderot,8.001431135863025e-05
-ww_10,7.802644154167039e-05
-etat_sol_16.0,7.734768805551833e-05
-ww_25,7.684182726035022e-05
-site_name_6 rue Julia Bartet,7.632294668128469e-05
-ww_63,7.29552071746663e-05
-counter_technical_id_Y2H18086323,7.086092403562346e-05
-ww_58,6.934789416237028e-05
-site_name_254 rue de Vaugirard,6.206280771886681e-05
-counter_technical_id_Y2H20114504,5.8729692468411435e-05
-ww_51,5.493961221491738e-05
-ww_47,4.7854752503604276e-05
-ww_80,4.223195957595713e-05
-ww_50,3.802414321086782e-05
-etat_sol_15.0,3.791394608401612e-05
-cod_tend_4,3.571250628334798e-05
-ww_11,3.0034706403436045e-05
-etat_sol_4.0,2.751898580775095e-05
-ww_22,1.6428679890922925e-05
-etat_sol_11.0,1.592626402694772e-05
-ww_27,1.2755157893945244e-05
-ww_20,1.2223776284653876e-05
-etat_sol_12.0,1.1803826605740928e-05
-ww_16,1.1511808874793516e-05
-etat_sol_13.0,9.922205635892363e-06
-ww_62,8.573099384818238e-06
-ww_15,6.854530171776078e-06
-ww_71,5.394912623577964e-06
-ww_26,5.245522803750291e-06
-ww_44,5.005635550285164e-06
-ww_41,4.474837864757084e-06
-ww_28,2.6579206139296586e-06
-ww_40,1.3123455437772593e-06
-ww_68,1.2349710636271828e-06
-ww_43,1.0076497385064466e-06
-ww_29,8.204612405114686e-07
-ww_73,8.154757029415442e-07
-ww_92,8.138991856266816e-07
-ww_95,7.896079196359354e-07
-ww_13,6.259035552674385e-07
-ww_66,5.821251804002207e-07
-ww_17,5.073775602033078e-07
-ww_82,1.5676694334435687e-07
-ww_42,1.3463420364715695e-07
-ww_46,1.2507164653895225e-07
-ww_81,4.5376476775963695e-08
-ww_45,2.4677273280486776e-08
+hour_2,0.080422873
+hour_1,0.080040894
+hour_0,0.075773266
+hour_3,0.075167823
+hour_23,0.063324063
+hour_4,0.052354102
+hour_22,0.050072367
+counter_age,0.041117525
+counter_name_28 boulevard Diderot E-O,0.035349097
+hour_21,0.029041367
+hour_5,0.020979221
+hour_20,0.019948846
+latitude,0.016654458
+counter_technical_id_Y2H19070377,0.016443114
+site_name_Face au 40 quai D'Issy,0.015366061
+longitude,0.015089669
+counter_technical_id_YTH19111510,0.012612551
+day_of_week_6,0.011920053
+site_name_Totem 73 boulevard de Sébastopol,0.011415449
+t,0.010599395
+temp_lag_1,0.008842107
+t_lag_3,0.00851915
+t_lag_1,0.008277869
+tend24,0.007506776
+t_lag_2,0.007101767
+hour_19,0.006993136
+day_of_week_5,0.006825556
+distance_to_nearest_velib,0.006698346
+td,0.006525543
+counter_technical_id_YTH19037970,0.006506031
+counter_technical_id_Y2H20073268,0.006302901
+temp_humidity_interaction,0.006215615
+hour_6,0.006028991
+wind_x,0.005621378
+site_name_20 Avenue de Clichy,0.00527372
+site_name_Totem 64 Rue de Rivoli,0.005078894
+vv,0.005054031
+tend,0.004887211
+wind_y,0.004756412
+hour_7,0.004480551
+month_2,0.004106741
+u_lag_3,0.003416845
+hbas,0.003407757
+u,0.003189067
+rr24,0.003017617
+rafper,0.002977276
+n,0.002574823
+cloud_wind_interaction,0.002429612
+month_9,0.002357461
+hour_16,0.002169102
+nbas,0.002132834
+month_5,0.001877553
+site_name_Face 104 rue d'Aubervilliers,0.001872952
+u_lag_2,0.001867095
+rr12,0.001852815
+hour_17,0.001815977
+month_4,0.001760446
+counter_technical_id_Y2H18086321,0.00165944
+counter_technical_id_Y2H19070373,0.001649389
+month_10,0.001601798
+counter_name_20 Avenue de Clichy SE-NO,0.001576011
+counter_name_67 boulevard Voltaire SE-NO,0.001565358
+counter_technical_id_Y2H18034809,0.001558582
+site_name_152 boulevard du Montparnasse,0.001558184
+site_name_67 boulevard Voltaire SE-NO,0.001520554
+u_lag_1,0.001518597
+counter_name_Face au 4 avenue de la porte de Bagnolet O-E,0.001476726
+etat_sol_0.0,0.0013812
+rr6,0.00132591
+month_6,0.001289785
+counter_name_90 Rue De Sèvres SO-NE,0.001215698
+counter_name_Totem Cours la Reine E-O,0.001175893
+counter_name_27 quai de la Tournelle SE-NO,0.0011343
+pres,0.001118618
+pres_lag_3,0.001117967
+pres_lag_2,0.001117824
+raf10_lag_3,0.001097091
+ff_lag_3,0.001096474
+pmer,0.001092837
+hour_18,0.001061541
+counter_name_20 Avenue de Clichy NO-SE,0.001059902
+pmer_lag_1,0.001055055
+pmer_lag_3,0.001051757
+ff_lag_2,0.001041065
+ff_lag_1,0.001035808
+rr3,0.001035668
+raf10_lag_2,0.001033054
+pres_lag_1,0.001027654
+raf10,0.001025268
+pmer_lag_2,0.001009658
+counter_technical_id_Y2H19070357,0.001006705
+site_name_Pont des Invalides S-N,0.000994255
+counter_name_90 Rue De Sèvres NE-SO,0.000987452
+raf10_lag_1,0.000986229
+counter_name_Pont des Invalides S-N,0.000983984
+counter_name_Face au 8 avenue de la porte de Charenton NO-SE,0.000945585
+counter_name_Voie Georges Pompidou NE-SO,0.00094151
+day_of_week_0,0.000937561
+counter_name_Totem 64 Rue de Rivoli O-E,0.000935568
+site_name_27 quai de la Tournelle,0.000873603
+month_11,0.000853743
+counter_technical_id_YTH19111508,0.000810983
+hour_8,0.000788606
+day_of_week_4,0.000787231
+counter_name_Face au 70 quai de Bercy S-N,0.000779112
+site_name_Totem 85 quai d'Austerlitz,0.000777794
+counter_technical_id_Y2H19070383,0.000771621
+interaction_precipitation_temperature,0.000736583
+counter_name_Face au 70 quai de Bercy N-S,0.000730696
+counter_name_18 quai de l'Hôtel de Ville NO-SE,0.000699087
+month_7,0.000690188
+hour_15,0.000663329
+month_12,0.000660295
+site_name_Pont des Invalides N-S,0.000622863
+counter_technical_id_Y2H19070365,0.000600093
+ww_3,0.000589692
+year_2020,0.000583568
+cod_tend_3,0.00057742
+cod_tend_6,0.000573928
+counter_name_Pont des Invalides N-S,0.000570746
+counter_name_38 rue Turbigo SO-NE,0.000563364
+year_2021,0.000558068
+counter_name_Face au 4 avenue de la porte de Bagnolet E-O,0.000552402
+counter_name_36 quai de Grenelle NE-SO,0.00054624
+ww_1,0.000543522
+counter_name_152 boulevard du Montparnasse O-E,0.000539834
+hour_9,0.000521597
+counter_name_6 rue Julia Bartet NE-SO,0.000507011
+counter_name_Totem 85 quai d'Austerlitz SE-NO,0.000491565
+counter_name_Quai d'Orsay E-O,0.00048812
+day_of_week_1,0.000477912
+counter_name_Voie Georges Pompidou SO-NE,0.000454473
+month_1,0.000442044
+ww_2,0.000441954
+counter_name_152 boulevard du Montparnasse E-O,0.00044024
+cod_tend_8,0.000423778
+day_of_week_3,0.000421685
+day_of_week_2,0.000414151
+site_name_Face au 25 quai de l'Oise,0.000414018
+counter_name_Totem Cours la Reine O-E,0.000411052
+site_name_18 quai de l'Hôtel de Ville,0.00038625
+counter_name_Totem 64 Rue de Rivoli E-O,0.000385423
+counter_name_6 rue Julia Bartet SO-NE,0.000383916
+site_name_Face au 48 quai de la marne,0.000376268
+cod_tend_5,0.000369843
+cod_tend_1,0.000367248
+etat_sol_1.0,0.000364468
+counter_name_254 rue de Vaugirard NE-SO,0.000360457
+counter_name_36 quai de Grenelle SO-NE,0.000358372
+counter_technical_id_Y2H19027732,0.000346986
+ht_neige,0.000342372
+counter_technical_id_Y2H18086318,0.000341825
+hour_10,0.000340303
+counter_name_Face au 48 quai de la marne SO-NE,0.000331239
+counter_name_Face 104 rue d'Aubervilliers S-N,0.000325953
+site_name_Quai d'Orsay,0.00032209
+counter_technical_id_Y2H18086324,0.000317905
+counter_name_Pont Charles De Gaulle SO-NE,0.000317368
+cod_tend_0,0.000314586
+site_name_Pont Charles De Gaulle,0.000309265
+etat_sol_2.0,0.000308626
+counter_technical_id_Y2H19070382,0.000303429
+counter_technical_id_Y2H19070375,0.000297251
+month_3,0.000296817
+counter_technical_id_Y2H19070380,0.00029503
+ssfrai,0.000290648
+site_name_38 rue Turbigo,0.000286729
+counter_name_39 quai François Mauriac SE-NO,0.000285158
+cod_tend_7,0.000281525
+counter_name_Face 104 rue d'Aubervilliers N-S,0.00028099
+month_8,0.00027804
+counter_name_Totem 73 boulevard de Sébastopol S-N,0.000275476
+counter_name_Pont de Bercy SO-NE,0.000274792
+counter_name_Quai d'Orsay O-E,0.000270865
+counter_name_27 quai de la Tournelle NO-SE,0.00026699
+counter_name_38 rue Turbigo NE-SO,0.000258617
+cod_tend_2,0.000254432
+counter_name_Face au 8 avenue de la porte de Charenton SE-NO,0.000249838
+counter_name_Totem 73 boulevard de Sébastopol N-S,0.00024801
+hour_11,0.000243753
+counter_name_39 quai François Mauriac NO-SE,0.000243729
+counter_technical_id_Y2H21025335,0.000239342
+hour_12,0.000236066
+rr1_lag_3,0.000230658
+hour_14,0.000226083
+ww_60,0.000223397
+ww_0,0.000221938
+hour_13,0.000213345
+counter_technical_id_Y2H20052705,0.00021219
+counter_name_254 rue de Vaugirard SO-NE,0.000211395
+counter_name_Pont de Bercy NE-SO,0.000211199
+site_name_Voie Georges Pompidou,0.000208448
+site_name_90 Rue De Sèvres,0.000207077
+rr1_lag_2,0.000187693
+counter_name_Face au 48 quai de la marne NE-SO,0.000173536
+counter_name_28 boulevard Diderot O-E,0.00017328
+rr1_lag_1,0.000173001
+counter_name_Face au 25 quai de l'Oise SO-NE,0.000170215
+counter_name_Totem 85 quai d'Austerlitz NO-SE,0.000167213
+site_name_Pont de Bercy,0.000165648
+counter_name_Face au 25 quai de l'Oise NE-SO,0.000165275
+counter_name_Face au 40 quai D'Issy SO-NE,0.000164601
+counter_technical_id_Y2H19070378,0.00016312
+precipitation_lag_1,0.000162177
+counter_technical_id_Y2H17021629,0.000158219
+site_name_Totem Cours la Reine,0.00015776
+precipitation_lag_2,0.000157484
+counter_name_18 quai de l'Hôtel de Ville SE-NO,0.000157221
+rr1,0.000154067
+counter_name_Pont Charles De Gaulle NE-SO,0.000150959
+counter_name_Pont de la Concorde S-N,0.000150024
+counter_technical_id_YTH19111509,0.000148309
+site_name_Face au 4 avenue de la porte de Bagnolet,0.000136399
+counter_name_Face au 40 quai D'Issy NE-SO,0.000136204
+site_name_39 quai François Mauriac,0.00013485
+ww_21,0.000134034
+site_name_36 quai de Grenelle,0.00012804
+site_name_Pont de la Concorde S-N,0.000126019
+counter_technical_id_Y2H19070356,0.000125979
+counter_technical_id_Y2H19070376,0.000123758
+etat_sol_0.6807339449541284,0.000122041
+counter_technical_id_Y2H19070372,0.000117143
+ww_61,0.000116958
+counter_technical_id_Y2H20022165,0.000111182
+site_name_Face au 8 avenue de la porte de Charenton,0.000106281
+counter_technical_id_Y2H19070370,0.000104907
+site_name_Face au 70 quai de Bercy,0.000101746
+counter_technical_id_Y2H15027244,9.42E-05
+site_name_28 boulevard Diderot,8.00E-05
+ww_10,7.80E-05
+etat_sol_16.0,7.73E-05
+ww_25,7.68E-05
+site_name_6 rue Julia Bartet,7.63E-05
+ww_63,7.30E-05
+counter_technical_id_Y2H18086323,7.09E-05
+ww_58,6.93E-05
+site_name_254 rue de Vaugirard,6.21E-05
+counter_technical_id_Y2H20114504,5.87E-05
+ww_51,5.49E-05
+ww_47,4.79E-05
+ww_80,4.22E-05
+ww_50,3.80E-05
+etat_sol_15.0,3.79E-05
+cod_tend_4,3.57E-05
+ww_11,3.00E-05
+etat_sol_4.0,2.75E-05
+ww_22,1.64E-05
+etat_sol_11.0,1.59E-05
+ww_27,1.28E-05
+ww_20,1.22E-05
+etat_sol_12.0,1.18E-05
+ww_16,1.15E-05
+etat_sol_13.0,9.92E-06
+ww_62,8.57E-06
+ww_15,6.85E-06
+ww_71,5.39E-06
+ww_26,5.25E-06
+ww_44,5.01E-06
+ww_41,4.47E-06
+ww_28,2.66E-06
+ww_40,1.31E-06
+ww_68,1.23E-06
+ww_43,1.01E-06
+ww_29,8.20E-07
+ww_73,8.15E-07
+ww_92,8.14E-07
+ww_95,7.90E-07
+ww_13,6.26E-07
+ww_66,5.82E-07
+ww_17,5.07E-07
+ww_82,1.57E-07
+ww_42,1.35E-07
+ww_46,1.25E-07
+ww_81,4.54E-08
+ww_45,2.47E-08
