@@ -38,8 +38,6 @@ for feature in categorical_cols:
     X_train[feature] = X_train[feature].astype(str)
     X_test[feature] = X_test[feature].astype(str)
 
-X_train = X_train.drop(cols_to_drop, axis=1)
-X_test = X_test.drop(cols_to_drop, axis=1)
 
 best_params = {
     "iterations": 1402,
