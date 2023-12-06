@@ -77,7 +77,7 @@ catboost_predictions = best_cat_reg.predict(X_train)
 catboost_predictions_2d = np.expand_dims(catboost_predictions, axis=1)
 
 ada_boost = AdaBoostRegressor(
-    base_estimator=None,  # Set to None since we are providing our own predictions
+    estimator=None,  # Set to None since we are providing our own predictions
     n_estimators=50,
     random_state=42,
     learning_rate=0.1,
