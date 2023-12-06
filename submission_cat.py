@@ -23,7 +23,13 @@ numerical_cols = ["latitude", "longitude"]
 for feature in categorical_cols:
     data[feature] = data[feature].astype(str)
 
-cols_to_drop_train = ["counter_id", "site_id", "date", "counter_installation_date"]
+cols_to_drop_train = [
+    "counter_id",
+    "site_id",
+    "date",
+    "counter_installation_date",
+    "coordinates",
+]
 
 data = data.drop(cols_to_drop_train, axis=1)
 data = data.drop("bike_count", axis=1)
