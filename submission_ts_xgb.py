@@ -11,10 +11,8 @@ data = data.set_index("date")
 test_data["date"] = pd.to_datetime(test_data["date"])
 test_data = test_data.set_index("date")
 
-# Select specific counter name
-selected_counter_name = "Totem 73 boulevard de Sébastopol S-N"
-train = data[data["counter_name"] == selected_counter_name]
-test = test_data[test_data["counter_name"] == selected_counter_name]
+train = data[["counter_name", "log_bike_count"]]
+test = test_data["counter_name"]
 
 
 def create_features(df):
