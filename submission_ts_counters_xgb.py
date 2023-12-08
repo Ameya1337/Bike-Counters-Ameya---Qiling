@@ -44,17 +44,6 @@ best_params = {
     "subsample": 0.9,
 }
 
-# Initialize XGBoost Regressor
-best_reg = xgb.XGBRegressor(
-    tree_method="hist",
-    n_estimators=best_params["n_estimators"],
-    learning_rate=best_params["learning_rate"],
-    max_depth=best_params["max_depth"],
-    min_child_weight=best_params["min_child_weight"],
-    subsample=best_params["subsample"],
-    colsample_bytree=best_params["colsample_bytree"],
-    enable_categorical=True,
-)
 
 # Define features and target
 features = ["counter_name", "hour", "dayofweek", "quarter", "month", "dayofyear"]
@@ -64,20 +53,38 @@ target = ["log_bike_count"]
 X_train = train[features]
 y_train = train[target]
 
-# Train the model
-best_reg.fit(
-    X_train,
-    y_train,
-    verbose=10,
-)
+new_features = ["hour", "dayofweek", "quarter", "month", "dayofyear"]
 
-# Prepare test data
-X_test = test[features]
+models = {}
+
+# Train the model
+for counter in train["counter_name"].unique():
+    train_subset = train[train["counter_name"] == counter]
+
+    X_train = train_subset[new_features]
+    y_train = train_subset["log_bike_count"]
+
+    model = xgb.XGBRegressor(**best_params)
+    model.fit(X_train, y_train)
+
+    models[counter] = model
+
+predictions_df = pd.DataFrame()
 
 # Make predictions
-predictions = best_reg.predict(X_test)
+for counter in test["counter_name"].unique():
+    test_subset = test[test["counter_name"] == counter]
+
+    if counter in models:
+        X_test = test_subset[new_features]
+        pred = models[counter].predict(X_test)
+        pred_df = pd.DataFrame(
+            {"counter_name": counter, "log_bike_count": pred}, index=test_subset.index
+        )
+        predictions_df = pd.concat([predictions_df, pred_df])
+
 
 # Create a DataFrame for predictions with the same index as test_data
-predictions_df = pd.DataFrame({"log_bike_count": predictions}, index=test.index)
+predictions_df = predictions_df.drop("counter_name", axis=1)
 predictions_df.reset_index(drop=True)
 predictions_df.to_csv("submissions.csv", index=True, index_label="Id")
