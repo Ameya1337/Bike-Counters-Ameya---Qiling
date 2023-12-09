@@ -45,3 +45,26 @@ counter_technical_id: Category for the technical ID of the counter.
 latitude: Float representing the latitude of the counter location.
 longitude: Float representing the longitude of the counter location.
 log_bike_count: Float representing the logarithm of the bike count.
+
+
+
+
+
+
+w1, w2: replace nan with 3
+n: NaN replace with 0
+n: replace the 101. with 100.
+nbas: replace nan with the mode of the day
+hbas: replace with mode of the day
+cl, cm, ch: replace with mode of the day
+tend24: replace nan with mean of the day
+raf10: replace with mean of the day
+etat_sol: replace with mode of the day
+ht_neige: replace negative with 0 and nan with mode of the day
+ssfrai: replace nan with mode of the day 
+persfrai: drop column
+rr1 to rr24: replace nan with mean of the day
+hnuage1: replace nan with mean of the day
+nnuage1: replace nan with mode of the day
+ctype1: replace nan with mode of the day
+
