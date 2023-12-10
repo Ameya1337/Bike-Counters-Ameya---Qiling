@@ -180,6 +180,11 @@ features = [
 target = ["log_bike_count"]
 cat_feature = ["counter_name"]
 
+X_train = combined_train[features]
+y_train = combined_train[target]
+X_test = combined_test[features]
+y_test = combined_test[target]
+
 best_params = {
     "n_estimators": 633,
     "max_depth": 11,
