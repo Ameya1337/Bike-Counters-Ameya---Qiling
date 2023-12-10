@@ -180,3 +180,49 @@ features = [
 target = ["log_bike_count"]
 cat_feature = ["counter_name"]
 
+best_params = {
+    "n_estimators": 633,
+    "max_depth": 11,
+    "min_child_weight": 2,
+    "gamma": 0.5,
+    "learning_rate": 0.01745767642563374,
+    "subsample": 0.6852898171340072,
+    "colsample_bytree": 0.5752583768824626,
+    "reg_alpha": 0.6174748033948815,
+    "reg_lambda": 0.37071451261939165,
+}
+
+final_model = xgb.XGBRegressor(
+    tree_method="hist", **best_params, enable_categorical=True
+)
+final_model.fit(
+    X_train,
+    y_train,
+    eval_set=[(X_test, y_test)],
+    early_stopping_rounds=10,
+    verbose=10,
+)
+
+
+
+y_pred_train = final_model.predict(X_train)
+rmse_train = mean_squared_error(y_train, y_pred_train, squared=False)
+print("Final Model  Train RMSE:", rmse_train)
+
+y_pred_test = final_model.predict(X_test)
+rmse_test = mean_squared_error(y_test, y_pred_test, squared=False)
+print("Final Model Test RMSE:", rmse_test)
+
+fi = pd.DataFrame(
+    data=final_model.feature_importances_, index=final_model.feature_names_in_, columns=["Importance"]
+)
+
+fi.sort_values(by="Importance").plot(kind="barh", title="Feature Importances XGBoost")
+
+fi.sort_values(by="Importance", ascending=False)
+
+X_train = combined_train[features]
+y_train = combined_train[target]
+X_test = combined_test[features]
+y_test = combined_test[target]
+X_pred = combined_prediction[features]
