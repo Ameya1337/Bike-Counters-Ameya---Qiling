@@ -29,7 +29,6 @@ weather_data = pd.read_csv(
 weather_data["date"] = pd.to_datetime(weather_data["date"])
 weather_data.set_index("date", inplace=True)
 weather_data_hourly = weather_data.resample("H").ffill()
-weather_data_hourly = weather_data_hourly.drop(columns=["week", "day"])
 
 
 class FrenchHolidayCalendar(AbstractHolidayCalendar):
@@ -129,14 +128,44 @@ combined_test = test.merge(
     weather_data_hourly, left_index=True, right_index=True, how="left"
 )
 
+combined_train["temp_hour_interaction"] = combined_train["t"] * combined_train["hour"]
+
+
+combined_train["humidity_day_interaction"] = (
+    combined_train["u"] * combined_train["dayofweek"]
+)
+
+combined_test["temp_hour_interaction"] = combined_test["t"] * combined_test["hour"]
+
+combined_test["humidity_day_interaction"] = (
+    combined_test["u"] * combined_test["dayofweek"]
+)
+
+combined_train["temp_humidity_interaction"] = combined_train["t"] * combined_train["u"]
+
+combined_test["temp_humidity_interaction"] = combined_test["t"] * combined_test["u"]
+
+# Define the weather features you want to lag
+weather_features = ["t", "td", "u", "ww", "n", "tend24", "etat_sol", "rr12"]
+
+# Create 6-hour, 9-hour, 12-hour and 24-hour lagged features
+for feature in weather_features:
+    for lag in [6, 9, 12, 24]:
+        combined_train[f"{feature}_lag{lag}h"] = combined_train.groupby("counter_name")[
+            feature
+        ].shift(lag)
+        combined_test[f"{feature}_lag{lag}h"] = combined_test.groupby("counter_name")[
+            feature
+        ].shift(lag)
+
 
 # Define features and target
 features = [
     "counter_name",
     "hour",
     "dayofweek",
-    "quarter",
     "month",
+    "quarter",
     "dayofyear",
     "hour_sin",
     "hour_cos",
@@ -146,37 +175,23 @@ features = [
     "lockdown_3_1",
     "lockdown_3_2",
     "lockdown_3_3",
-    "pmer",
-    "tend",
-    "cod_tend",
-    "dd",
-    "ff",
     "t",
-    "td",
     "u",
-    "vv",
     "ww",
-    "w1",
     "n",
-    "nbas",
-    "hbas",
-    "cl",
-    "cm",
-    "ch",
-    "pres",
-    "tend24",
-    "raf10",
-    "rafper",
     "etat_sol",
-    "ht_neige",
-    "rr1",
-    "rr3",
-    "rr6",
     "rr12",
-    "rr24",
-    "nnuage1",
-    "ctype1",
-    "hnuage1",
+    "temp_hour_interaction",
+    "humidity_day_interaction",
+    "t_lag6h",
+    "t_lag9h",
+    "t_lag24h",
+    "td_lag24h",
+    "u_lag24h",
+    "ww_lag24h",
+    "n_lag24h",
+    "etat_sol_lag24h",
+    "rr12_lag24h",
 ]
 target = ["log_bike_count"]
 cat_feature = ["counter_name"]
@@ -189,22 +204,25 @@ X_test = combined_test[features]
 # Train Model
 
 best_params = {
-    "lambda": 5.5163638658795495,
-    "alpha": 5.722067076221477e-06,
-    "colsample_bytree": 0.5588623654042607,
-    "subsample": 0.7939924932498187,
-    "learning_rate": 0.08132063380230384,
-    "max_depth": 10,
-    "min_child_weight": 132,
+    "n_estimators": 633,
+    "max_depth": 11,
+    "min_child_weight": 2,
+    "gamma": 0.5,
+    "learning_rate": 0.01745767642563374,
+    "subsample": 0.6852898171340072,
+    "colsample_bytree": 0.5752583768824626,
+    "reg_alpha": 0.6174748033948815,
+    "reg_lambda": 0.37071451261939165,
 }
 
 final_model = xgb.XGBRegressor(
-    n_estimators=100, tree_method="hist", **best_params, enable_categorical=True
+    tree_method="hist", **best_params, enable_categorical=True
 )
+
 final_model.fit(
     X_train,
     y_train,
-    verbose=False,
+    verbose=10,
 )
 
 
